@@ -1,5 +1,9 @@
 #app {
-  background-image: linear-gradient(to right, #e8dcb5 50%, #efead0 0%);
+  background-image: linear-gradient(
+    to right, 
+    #e8dcb5 50%, 
+    #efead0 0%
+  );
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -13,4 +17,18 @@
 #wheel {
   position: absolute;
   transition: all 1s;
+}
+
+@media (orientation: portrait) {
+  #app {
+    background-image: linear-gradient(
+      to right, 
+      #e8dcb5, 
+      #efead0
+    );
+  }
+  .image {
+    width: 100vw;
+    height: auto;
+  }
 }
