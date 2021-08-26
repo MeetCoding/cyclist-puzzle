@@ -1,5 +1,5 @@
 #app {
-  background-color: var(--theme);
+  background-image: linear-gradient(to right, #e8dcb5 50%, #efead0 0%);
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -12,5 +12,5 @@
 }
 #wheel {
   position: absolute;
-  transform: rotate(-30deg);
+  transition: all 1s;
 }
